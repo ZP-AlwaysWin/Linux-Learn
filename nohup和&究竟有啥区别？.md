@@ -1,5 +1,14 @@
 ### nohup和&究竟有啥区别？
 
+#### nohup 命令
+
+**用途：不挂断地运行命令。**
+
+语法：`nohup Command [ Arg … ][ & ]`
+
+描述：`nohup` 命令运行由 `Command` 参数和任何相关的 `Arg` 参数指定的命令，忽略所有挂断`(SIGHUP)`信号。在注销后使用`nohup`命令运行后台中的程序。要运行后台中的 `nohup` 命令，添加`&`到命令的尾部。
+
+
 测试代码如下：
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/YrezxckhYOzzYpIzc7s0cwRyof3PBO76fb9vsibTBIuQwnBoavsGLyO635pr5yRrCDF3ic3A5D5nTvhHEaugaJ8g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
