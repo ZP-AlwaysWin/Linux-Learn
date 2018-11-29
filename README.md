@@ -1,8 +1,7 @@
 # Linux-Learn
 
-- [X] [Git](Learn-Git.md) 
-- [X] [nohup和&究竟有啥区别？](nohup和&究竟有啥区别？.md)
-- [ ] Shell
+- [X] [Git](https://github.com/ZP-AlwaysWin/Linux-Learn/blob/master/GIT/README.md) 
+- [X] Shell
 - [ ] HDFS
 - [ ] Spark
 - [ ] Nginx
